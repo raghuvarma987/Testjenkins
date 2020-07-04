@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56070" started-at="2020-07-02T15:11:11Z" finished-at="2020-07-02T15:12:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56070" started-at="2020-07-02T15:11:11Z" finished-at="2020-07-02T15:12:07Z">
+      <class name="Testjenkins.Jenkin">
+        <test-method status="PASS" signature="jen()[pri:0, instance:Testjenkins.Jenkin@55f3ddb1]" name="jen" is-config="true" duration-ms="42" started-at="2020-07-02T20:41:11Z" finished-at="2020-07-02T20:41:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jen -->
+        <test-method status="PASS" signature="launchchrome()[pri:0, instance:Testjenkins.Jenkin@55f3ddb1]" name="launchchrome" duration-ms="55942" started-at="2020-07-02T20:41:11Z" finished-at="2020-07-02T20:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchchrome -->
+        <test-method status="PASS" signature="tess()[pri:0, instance:Testjenkins.Jenkin@55f3ddb1]" name="tess" is-config="true" duration-ms="1" started-at="2020-07-02T20:42:07Z" finished-at="2020-07-02T20:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tess -->
+      </class> <!-- Testjenkins.Jenkin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
