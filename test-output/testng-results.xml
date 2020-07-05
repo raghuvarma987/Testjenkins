@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56070" started-at="2020-07-02T15:11:11Z" finished-at="2020-07-02T15:12:07Z">
+  <suite name="Default suite" duration-ms="58533" started-at="2020-07-05T07:24:46Z" finished-at="2020-07-05T07:25:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56070" started-at="2020-07-02T15:11:11Z" finished-at="2020-07-02T15:12:07Z">
+    <test name="Default test" duration-ms="58533" started-at="2020-07-05T07:24:46Z" finished-at="2020-07-05T07:25:45Z">
       <class name="Testjenkins.Jenkin">
-        <test-method status="PASS" signature="jen()[pri:0, instance:Testjenkins.Jenkin@55f3ddb1]" name="jen" is-config="true" duration-ms="42" started-at="2020-07-02T20:41:11Z" finished-at="2020-07-02T20:41:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- jen -->
-        <test-method status="PASS" signature="launchchrome()[pri:0, instance:Testjenkins.Jenkin@55f3ddb1]" name="launchchrome" duration-ms="55942" started-at="2020-07-02T20:41:11Z" finished-at="2020-07-02T20:42:07Z">
+        <test-method status="PASS" signature="launchchrome()[pri:0, instance:Testjenkins.Jenkin@55f3ddb1]" name="launchchrome" is-config="true" duration-ms="29820" started-at="2020-07-05T12:54:46Z" finished-at="2020-07-05T12:55:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchchrome -->
-        <test-method status="PASS" signature="tess()[pri:0, instance:Testjenkins.Jenkin@55f3ddb1]" name="tess" is-config="true" duration-ms="1" started-at="2020-07-02T20:42:07Z" finished-at="2020-07-02T20:42:07Z">
+        <test-method status="PASS" signature="ganatest()[pri:0, instance:Testjenkins.Jenkin@55f3ddb1]" name="ganatest" duration-ms="1130" started-at="2020-07-05T12:55:16Z" finished-at="2020-07-05T12:55:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tess -->
+        </test-method> <!-- ganatest -->
+        <test-method status="PASS" signature="closechrome()[pri:0, instance:Testjenkins.Jenkin@55f3ddb1]" name="closechrome" is-config="true" duration-ms="778" started-at="2020-07-05T12:55:17Z" finished-at="2020-07-05T12:55:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closechrome -->
+        <test-method status="PASS" signature="launchchrome()[pri:0, instance:Testjenkins.Jenkin@55f3ddb1]" name="launchchrome" is-config="true" duration-ms="22123" started-at="2020-07-05T12:55:18Z" finished-at="2020-07-05T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchchrome -->
+        <test-method status="PASS" signature="instatest()[pri:0, instance:Testjenkins.Jenkin@55f3ddb1]" name="instatest" duration-ms="153" started-at="2020-07-05T12:55:40Z" finished-at="2020-07-05T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instatest -->
+        <test-method status="PASS" signature="closechrome()[pri:0, instance:Testjenkins.Jenkin@55f3ddb1]" name="closechrome" is-config="true" duration-ms="4493" started-at="2020-07-05T12:55:40Z" finished-at="2020-07-05T12:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closechrome -->
       </class> <!-- Testjenkins.Jenkin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

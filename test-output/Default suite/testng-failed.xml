@@ -5,9 +5,10 @@
     <classes>
       <class name="Testjenkins.Jenkin">
         <methods>
+          <include name="ganatest"/>
           <include name="launchchrome"/>
-          <include name="jen"/>
-          <include name="tess"/>
+          <include name="instatest"/>
+          <include name="closechrome"/>
         </methods>
       </class> <!-- Testjenkins.Jenkin -->
     </classes>
